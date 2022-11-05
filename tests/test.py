@@ -1,7 +1,6 @@
 import unittest
 import os
 
-
 class Test_test1(unittest.TestCase):
     def test_A(self):
         self.assertEqual(True,True)
@@ -18,7 +17,6 @@ class Test_test1(unittest.TestCase):
 class UneClasseDeTest(unittest.TestCase):
     def test_simple(self):
         self.assertTrue(True)
-
 
 class Test_test2(unittest.TestCase):
     def test_B(self):
