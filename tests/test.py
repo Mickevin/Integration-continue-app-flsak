@@ -25,8 +25,6 @@ class Test_test2(unittest.TestCase):
         print(False)
         return False
 
-
-
 class Test_Config(unittest.TestCase):
     def test_config(self):
         self.assertEqual(8000, 8000)
