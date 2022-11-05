@@ -28,7 +28,5 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(8000, 8000)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
