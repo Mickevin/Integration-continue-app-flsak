@@ -9,7 +9,7 @@ on:
     - developpement
     - production
   pull_request:
-    branches: [ "production" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
