@@ -1,26 +1,27 @@
 from flask import Flask, render_template, request
-import requests
 import warnings
 
 warnings.filterwarnings('ignore')
+import socket
 
+
+name = socket.gethostname().split('.')[0]
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET'])
 def app_home():
-    return render_template("index.html")
+    
+    return render_template("index.html", name=name)
 
 
-@app.route('/predict/', methods=['POST'])
+@app.route('/submit/', methods=['POST'])
 def result():    
     if request.method == 'POST':
-        return render_template("prediction.html",
-                               date_=date,
-                               value0=day_pred[0], 
-                               value1=day_pred[1], 
-                               value2=day_pred[2],
-                              value3=day_pred[3])
+        print(request.form.get('name'))
+        print(request.form.get('email'))
+        return render_template("submit.html")
 
 
 if __name__ == '__main__':
