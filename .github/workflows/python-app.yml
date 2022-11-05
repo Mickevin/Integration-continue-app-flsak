@@ -1,11 +1,11 @@
-name: Build and deploy Python app to Azure Web App - echoBot22-test
+name: Build Python app  - CI/CC
 
 on:
   push:
     branches:
       - main
-      - production
-      - developpement
+      - 'production'
+      - 'developpement'
   workflow_dispatch:
 
 jobs:
