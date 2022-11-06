@@ -6,13 +6,15 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Installez les dépendances suivantes pour lancer l'application Flask
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install requirements.txt
 ```
 
-## Usage
+## Démarage de l'application
 
 ```python
 import foobar
