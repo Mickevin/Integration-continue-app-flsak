@@ -40,24 +40,24 @@ python app.py
 Détail des repertoires et des fichier contenus dans le dossier **Integration-continue-app-flsak**
 
 * static/         : Répertoire contenant les pages html du projet => index.html(page d'acceuil), submit.html(page de confirmation du formulaire)
-<br>
-  |---> index.html
-<br>
-  |---> submit.html
 
+  |---> index.html
+
+  |---> submit.html
+<br>
  * templates/     : Répertoire contenant les templates css et js du projet ainsi que les images (assets).
- <br>
+
   |---> assets/
-<br>
+
   |---> css/
-<br>
+
   |---> js/
-  
- * tests/            : Répertoire contenant les tests unitaires à compléter.
 <br>
+ * tests/            : Répertoire contenant les tests unitaires à compléter.
+
   |---> test.py     
  
- 
+<br> 
 * requirements.txt  : Dépendances python nécessaires au fonctionnement de l'application.
 
 * README.md         : Fichier de présentation de l'application.
