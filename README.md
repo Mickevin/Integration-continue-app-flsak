@@ -40,15 +40,21 @@ python app.py
 Détail des repertoires et des fichier contenus dans le dossier **Integration-continue-app-flsak**
 
 * static/         : Répertoire contenant les pages html du projet => index.html(page d'acceuil), submit.html(page de confirmation du formulaire)
+<br>
   |---> index.html
+<br>
   |---> submit.html
 
  * templates/     : Répertoire contenant les templates css et js du projet ainsi que les images (assets).
+ <br>
   |---> assets/
+<br>
   |---> css/
+<br>
   |---> js/
   
  * tests/            : Répertoire contenant les tests unitaires à compléter.
+<br>
   |---> test.py     
  
  
@@ -68,4 +74,5 @@ Détail des repertoires et des fichier contenus dans le dossier **Integration-co
 
 ## Crédits
 [Kévin Duranty](https://xn--kvin-duranty-beb.fr/)
+<br>
 [Thème Bootstrap de référence](https://startbootstrap.com/theme/freelancer)
