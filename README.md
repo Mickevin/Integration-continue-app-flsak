@@ -44,20 +44,25 @@ Détail des repertoires et des fichier contenus dans le dossier **Integration-co
   |---> index.html
 
   |---> submit.html
+  
 <br>
- * templates/     : Répertoire contenant les templates css et js du projet ainsi que les images (assets).
+
+* templates/     : Répertoire contenant les templates css et js du projet ainsi que les images (assets).
 
   |---> assets/
 
   |---> css/
 
   |---> js/
+  
 <br>
- * tests/            : Répertoire contenant les tests unitaires à compléter.
+
+* tests/            : Répertoire contenant les tests unitaires à compléter.
 
   |---> test.py     
  
 <br> 
+
 * requirements.txt  : Dépendances python nécessaires au fonctionnement de l'application.
 
 * README.md         : Fichier de présentation de l'application.
