@@ -33,7 +33,7 @@ jobs:
         run: python -m unittest discover tests
 
       - name: Run app
-        run: python app
+        run: python app.py
       
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
